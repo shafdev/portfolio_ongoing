@@ -12,9 +12,47 @@ body {
   height:100vh;
   background-color:cadetblue;
 }
-
+.container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.container>div{
+  scroll-snap-align: start;
+}
 .navbar{
   width:100%;
-  height: 250px;
+  height: 15%;
   background-color: #3771C8;
 }
+
+.firstpage{
+  width: 100%;
+  background-color: #EABF9F;
+  height: 75%;
+}
+.firstpage-intro{
+  width: 20%;
+  height: 20%;
+  background-color: #C26868;
+}
+
+.socials{
+  width: 9%;
+  height: 40%;
+  background-color: #C837AB;
+
+}
+
+.secondpage{
+  width: 100vw;
+  height: 100vh;
+  background-color:#C837AB;
+}
+
+.thirdpage{
+  width: 100vw;
+  height: 100vh;
+  background-color:#4d37c8;
+}
+
