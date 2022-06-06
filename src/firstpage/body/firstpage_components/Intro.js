@@ -8,7 +8,8 @@ function Intro(){
         <div className="intros">
             <span className="intro-hii">Hi, I’m</span>
             <br/>
-            <span className="intro-name">Shafik .</span>
+            <span className="intro-name">Shafik.</span>
+            <br/>
 
             <span className="intro-bio">Front end developer who writes 
             <br/>clean, elegant and efficient code.</span>

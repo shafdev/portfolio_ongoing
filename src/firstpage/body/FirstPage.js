@@ -17,7 +17,7 @@ function FirstPage(){
 
             <Navbar context={contextResult}/>
             <Burger />
-            {/* <Intro/> */}
+            <Intro/>
             <Socials context ={contextResult}/>
             
         </div>  
