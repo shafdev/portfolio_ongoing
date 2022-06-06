@@ -5,7 +5,14 @@ function Intro(){
 
     return(<>
         <div className="firstpage-intro">
-            {/* <h3>firstpage Intro</h3> */}
+        <div className="intros">
+            <span className="intro-hii">Hi, I’m</span>
+            <br/>
+            <span className="intro-name">Shafik .</span>
+
+            <span className="intro-bio">Front end developer who writes 
+            <br/>clean, elegant and efficient code.</span>
+        </div>
         </div>
     </>)
 }
