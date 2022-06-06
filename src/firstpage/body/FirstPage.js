@@ -8,7 +8,7 @@ import { contextBurger } from "../nav/Burger";
 
 
 function FirstPage(){
-    const [test,setTest] = useState('test')
+    // const [test,setTest] = useState('test')
     const contextResult = useContext(contextBurger)
     console.log(`this is result ${contextResult}`)
     return(<>
