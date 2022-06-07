@@ -65,12 +65,15 @@
   z-index: 1;
   position: relative;
   /* background-color: cornflowerblue; */
-  margin-top: 11rem;
-  margin-left: 2rem;
+  /* margin-top: 11rem; */
+  /* margin-left: 2rem; */
   /* left: 10%; */
-  /* left: 14rem; */
-  /* top:1rem; */
-  /* width: 50%; */
+  padding: 1rem;
+  left: 8rem;
+  top:10rem;
+  width: 60%;
+  /* line-height: 3rem; */
+
 }
 /* .intros{
   position: relative;
@@ -80,29 +83,25 @@
 } */
 .intro-hii{
   z-index: 1;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 3rem;
-  color: #37a6c8;
+  /* color: #37a6c8; */
   /* top:1.5rem; */
 }
 
 .intro-name{
   z-index: 1;
   font-weight: 500;
-  font-size: 3.7rem;
+  font-size: 4rem;
   /* top: 4.5rem; */
 }
 span:nth-child(5){
   /* position: relative; */
   z-index: 1;
   font-weight: 600;
-  font-size: 1.3rem;
-  /* padding:20px ; */
-  /* border:2rem; */
-  /* margin-right: 2rem; */
-  /* background-color: #af5e20; */
-  /* text-align: center; */
-  /* top:9rem; */
+  font-size: 1.2rem;
+  padding-left: 2px;
+
 }
 
 
@@ -142,6 +141,43 @@ span:nth-child(5){
 }
 
 @media screen and (max-width:576px){
+
+  .firstpage-intro{
+    z-index: 1;
+    position: relative;
+    background-color: cornflowerblue;
+    background-color: #E5E5E5;
+
+    
+    margin-top: 11rem;
+    margin-left: 2rem;
+    /* left: 10%; */
+    left: 0rem;
+    top:0rem;
+    width: 90%;
+  }
+  .intro-hii{
+    z-index: 1;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #37a6c8;
+    /* top:1.5rem; */
+  }
+  
+  .intro-name{
+    z-index: 1;
+    font-weight: 500;
+    font-size: 3.9rem;
+    /* top: 4.5rem; */
+  }
+  span:nth-child(5){
+    /* position: relative; */
+    z-index: 1;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-left: 0px;
+  
+  }
 
   .navbar{
       display: flex;
@@ -213,7 +249,7 @@ span:nth-child(5){
       border-radius: 0.8rem 0 0 0.8rem;
       right: 0rem;
       /* top:20rem; */
-      top:60vh;      
+      top:55vh;      
       transition: 1s;
       transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }

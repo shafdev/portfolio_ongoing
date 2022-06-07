@@ -11,8 +11,8 @@ function Intro(){
             <span className="intro-name">Shafik.</span>
             <br/>
 
-            <span className="intro-bio">Front end developer who writes 
-            {/*<br/>*/}clean, elegant and efficient code.</span>
+            <span className="intro-bio">Front end developer who writes
+            clean, elegant and efficient code.</span>
         {/* </div> */}
         </div>
     </>)
