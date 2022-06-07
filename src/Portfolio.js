@@ -17,12 +17,12 @@ function Portfolio(){
                 <FirstPage/>
             </Burger>
         </div>
-        <div>
+        {/* <div> */}
             <SecondPage/>
-        </div>
-        <div>
+        {/* </div> */}
+        {/* <div> */}
             <ThirdPage/>
-        </div>
+        {/* </div> */}
     </div>
     </>)
 }

@@ -64,49 +64,44 @@
 .firstpage-intro{
   z-index: 1;
   position: relative;
-  left: 14rem;
-  top:1rem;
-  /* margin-top: auto; */
-  /* margin-bottom: auto; */
-  /* left: 191px; */
-  width: 50%;
-  /* height: auto; */
-  /* height: 60%; */
-  /* background-color: #C26868; */
-  /* margin: auto; */
+  /* background-color: cornflowerblue; */
+  margin-top: 11rem;
+  margin-left: 2rem;
+  /* left: 10%; */
+  /* left: 14rem; */
+  /* top:1rem; */
+  /* width: 50%; */
 }
-.intros{
+/* .intros{
   position: relative;
-  /* margin: auto; */
   top:25vh;
-  /* bottom: 2%; */
   right: 7rem;
-  /* position: absolute; */
-}
+  background-color: ;
+} */
 .intro-hii{
   z-index: 1;
-  /* position: absolute; */
   font-weight: 500;
   font-size: 3rem;
-  top:1.5rem;
-  /* font-size: 15%; */
+  /* top:1.5rem; */
 }
 
 .intro-name{
   z-index: 1;
-  
-  /* position:absolute; */
   font-weight: 500;
   font-size: 3.7rem;
-  top: 4.5rem;
+  /* top: 4.5rem; */
 }
-.intro-bio{
+span:nth-child(5){
+  /* position: relative; */
   z-index: 1;
-
-  /* position:absolute; */
   font-weight: 600;
-  font-size: 20px;
-  top:9rem;
+  font-size: 1.3rem;
+  /* padding:20px ; */
+  /* border:2rem; */
+  /* margin-right: 2rem; */
+  /* background-color: #af5e20; */
+  /* text-align: center; */
+  /* top:9rem; */
 }
 
 
@@ -144,6 +139,7 @@
   opacity: 0.6;
 
 }
+
 @media screen and (max-width:576px){
 
   .navbar{
