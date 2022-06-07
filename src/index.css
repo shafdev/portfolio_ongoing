@@ -51,8 +51,10 @@
   gap: 1.5rem;
   list-style-type: none;
   background-color: #E5E5E5;
-  color: #1E212D;
-  border-radius: 0.8rem;
+  background-color:  rgba(229, 229, 229, 0.5);
+  /* rgba(30, 33, 45, 0.5); */
+  color: #16181f;
+  border-radius: 0.5rem;
   font-weight: 500;
 }
 
@@ -129,15 +131,23 @@ span:nth-child(5){
   /* right: 1.2rem; */
   top:9rem;
 }
-
-.socials >img{
+.socials>a {
+  display: flex;
+  justify-content: center;
+}
+.socials img{
   width: 55%;
   height: auto;
 }
 
 .gmail-img{
-  opacity: 0.6;
+  opacity: 0.7;
+  padding: 0.2rem;
+  /* width: 1rem; */
+}
 
+.wa-img{
+  width: 70% !important;
 }
 
 @media screen and (max-width:576px){
