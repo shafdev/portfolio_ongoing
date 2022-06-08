@@ -1,4 +1,6 @@
 import React from 'react'
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+
 import FirstPage from './firstpage/body/FirstPage';
 import Burger from './firstpage/nav/Burger';
 import Navbar from './firstpage/nav/Navbar';
@@ -10,20 +12,32 @@ function Portfolio(){
 
 
     return(<>
-    <div className='container'>
-        <div className='portfolio'>
-            {/* <Navbar/> */}
-            <Burger>
-                <FirstPage/>
-            </Burger>
+    <Router>
+    <Routes>
+        <Route path='/' element={
+
+
+        <div className='container'>
+            <div className='portfolio'>
+                {/* <Navbar/> */}
+                <Burger>
+                    <FirstPage/>
+                </Burger>
+            </div>
+            {/* <div> */}
+                {/* <SecondPage/> */}
+            {/* </div> */}
+            {/* <div> */}
+                <ThirdPage/>
+            {/* </div> */}
         </div>
-        {/* <div> */}
-            <SecondPage/>
-        {/* </div> */}
-        {/* <div> */}
-            <ThirdPage/>
-        {/* </div> */}
-    </div>
+        }></Route>
+    
+                
+    <Route path='/work' element={<SecondPage/>}></Route>
+
+    </Routes>
+    </Router>
     </>)
 }
 

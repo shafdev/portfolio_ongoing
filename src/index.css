@@ -13,9 +13,50 @@
 .secondpage{
   width: 100%;
   height: 100vh;
-  background-color:#C837AB;
+  background-color:#cc9ec3;
+  /* margin: auto; */
 }
 
+.secondpage-flexbox{
+  background-color: #0aaf99;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-contain{
+  width: 95%;
+  height: 90%;
+  justify-content: center;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap:1rem;
+  background-color: rgb(174, 255, 127);
+}
+
+.portfolio-items{
+  width: 100%;
+  background-color: #4d37c8;
+}
+
+/* .portfolio-items:hover{
+
+  transition-duration: 600ms;
+  transform: scale(1.1);
+
+  background-color: #4d37c8;
+} */
+
+
+.porfolio-img{
+  width:80%;
+  /* width: 250px; */
+  object-fit:contain;
+  
+}
 .thirdpage{
   width: 100%;
   height: 100vh;
